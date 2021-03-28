@@ -2,11 +2,11 @@ import praw
 import time
 
 reddit = praw.Reddit(
-    client_id="6AhqDduz5LSvZA",
-    client_secret="36lEt_0UNT68YOhryukFDQZmkN4VSw",
+    client_id="",
+    client_secret="",
     user_agent="mazespin_bot_ver_1.0",
-    username="congobongo420",
-    password="spartak"
+    username="redditUsername",
+    password="redditPass"
 
 )
 subreddit = reddit.subreddit("formula1")
